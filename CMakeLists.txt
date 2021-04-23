@@ -5,4 +5,6 @@ cmake_minimum_required(VERSION 3.10.2)
 # Name of the project
 project(MyFirstProject)
 
+add_executable(helloCMAKE hello.c)
+
 add_library(HelloFromCMake hello.c)
